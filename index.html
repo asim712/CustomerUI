@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-lg-12">
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-primary" href="#"><i class="fa-solid fa-arrow-left"></i>BACK</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link btn btn-primary text-light" href="#">B2C</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-primary" href="#">B2B Tax</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-primary" href="#">B2B Supply</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-primary" href="#">Manual</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-primary" href="#"><i class="fa-solid fa-square-plus"></i></a>
+                            </li>
+                        </ul>
+                        <div class="form-inline my-2 my-lg-0">
+                            <a class="nav-link text-primary" href="#">Bill Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+            <br>
+            <br>
+
+        </div>
+
+
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-7">
+            <div class="row mx-2">
+                <div class="col-sm-3">
+                    <div class="card text-center text-white">
+                        <div class="text-primary my-3">
+                            <a href=""> Unit Mapped <br>
+                                2/725</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center text-white">
+                        <div class="text-primary my-3">
+                            <a href=""> Active Charges<br>
+                                7/7</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center text-white">
+                        <div class="text-primary my-3">
+                            <a href=""> Reading<br>
+                                -/2</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row mx-2 my-3">
+                <div class="col-sm-6">
+                    <label for="name" class="form-label">Billing Cycle *</label>
+                    <input type="text" class="form-control" name="name" placeholder="Nov-21-B2C|B2C"
+                        aria-label="First name" required>
+
+                    <small id="emailHelp" class="form-text  text-success">Billing cycle is active.<i class="fa-solid fa-check"></i></small>
+                </div>
+                <div class="col-sm-6">
+                    <label for="email" class="form-label">Cluster</label>
+                    <input type="email" class="form-control" name="email" placeholder="AMN" aria-label="Last name"
+                        required>
+                </div>
+            </div>
+            <div class="row mx-2 my-3">
+                <div class="col-sm-6">
+                    <label for="name" class="form-label">Tower</label>
+                    <input type="text" class="form-control" name="name" placeholder="Select Tower"
+                        aria-label="First name" required>
+                </div>
+                <div class="col-sm-6">
+                    <label for="email" class="form-label">Unit</label>
+                    <input type="email" class="form-control" name="email" placeholder="AMN0020905-Lokendra Kumar Sharma"
+                        aria-label="Last name" required>
+                </div>
+            </div>
+            <div class="row mx-2">
+                <div class="col-sm-6">
+                    <input type="text" placeholder="Remarks" class="form-control">
+                </div>
+            </div>
+            <div class="row mx-2 my-3">
+                <div class="col-sm-6">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label for="bill">Provisional Bill<i class="fa-solid fa-circle-question"></i> </label>
+                </div>
+            </div>
+
+            <!-- <div class="row mx-2 my-5">
+                <div class="col-sm-6 ">
+                    <a href="" class="btn btn-sm btn-danger">Generate</a>
+                    <a href="" class="btn btn-sm btn-primary">Preview</a>
+                    <a href="" class="btn btn-sm ">Generate</a>
+                    <a href="" class="btn btn-sm btn-primary ">Print</a>
+                    <a href="">Print</a>
+                </div>
+            </div> -->
+
+        </div>
+
+
+        <div class="col-md-5">
+            <div class="card text-center text-primary mx-2">
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <h6>Billing cycle</h6>
+                            <hr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Billing period FROM | To</th>
+                            <td>01 Nov 2021|30 Nov 2021</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Bill Due</th>
+                            <td>01 Jan 2022| 01 Jan 2022</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Consider Payment To</th>
+                            <td>30 Nov 2021 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Consider meter reading FROM|To</th>
+                            <td>01 Nov 2021|30 Nov 2021 </td>
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mx-5 my-5">
+        <div class="col-sm-5">
+            <table class="border">
+                <tr>
+                    <a href="" class="btn btn-sm btn-danger border border-secondary rounded-0"><i
+                            class="fa-solid fa-microchip"></i>Generate</a>
+                    <a href="" class="btn btn-sm btn-primary border border-secondary rounded-0"><i
+                            class="fa-regular fa-eye"></i>Preview</a>
+                    <a href="" class="btn btn-sm btn-light border border-secondary rounded-0"><i
+                            class="fa-regular fa-file"></i> </a>
+                    <a href="" class="btn btn-sm btn-primary border border-secondary rounded-0"><i
+                            class="fa-solid fa-print"></i>Print</a>
+                    <a href="" class="btn btn-sm btn-light border border-secondary rounded-0"><i
+                            class="fa-regular fa-file"></i></a>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-sm-5">
+            <table class="border">
+
+                <tr>
+                    <a href="" class="btn btn-sm btn-danger border border-secondary rounded-0"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a href="" class="btn btn-sm  border border-secondary rounded-0 "><i
+                            class="fa-regular fa-eye"></i></a>
+                    <a href="" class="btn btn-sm rounded-0 border border-secondary"><i
+                            class="fa-solid fa-print"></i></a>
+                    <a href="" class="btn btn-sm btn-primary rounded-0 border border-secondary"><i
+                            class="fa-solid fa-mobile-screen-button"></i>Sms</a>
+                    <a href="" class="btn btn-sm  rounded-0 border border-secondary"><i
+                            class="fa-regular fa-eye"></i></a>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
